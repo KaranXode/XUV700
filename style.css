@@ -199,8 +199,6 @@ header .input-wrapper {
   top: 1px;
 }
 .heading-lg-xuv {
-  /* font-size: 260px; */
-  /* font-size: 20vw; */
   font-size: clamp(50px, 20vw, 300px);
   font-weight: 400;
   font-family: "Allerta Stencil", sans-serif;
@@ -630,6 +628,10 @@ small {
   .xuv-front-wrapper {
     position: static;
     height: 36vh;
+    overflow: hidden;
+  }
+  .xuv-front-blue {
+    max-width: 150vw;
   }
   .xuv-bg-text {
     top: 24%;
